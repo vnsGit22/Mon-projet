@@ -1,0 +1,27 @@
+{
+  "name": "mon-projet",
+  "version": "1.0.0",
+  "description": "Mon projet d'autoformation sur Cypress.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnsGit22/Mon-projet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnsGit22/Mon-projet/issues"
+  },
+  "homepage": "https://github.com/vnsGit22/Mon-projet#readme",
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions" : "cypress/cucumber/stepDefinitions"
+    }
+}
